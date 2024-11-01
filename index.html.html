@@ -1,0 +1,218 @@
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persenal Portfolio</title>
+    <link rel="stylesheet" href="persenal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet "> 
+</head>
+ <body>
+    <!--HEADER SECTION--> 
+    
+    <div id="header">
+       <div class="container">
+        <nav> 
+            <h1 style="font-style: italic;font-weight: bold;"><span style="color: #ff004f;font-size: larger;">A</span>BDI <p style="font-size:medium;">personal Portfolio</p></h1>
+    
+            <ul id="sidemenu">
+                <li><a href="#header" >Home</a></li>
+                <li><a href="#about">About</a></li> 
+                <li><a href="#services">Services </a></li> 
+                <li><a href="#portfolio">Portfolio</a></li> 
+                <li><a href="#contact">contact</a></li>
+                 
+                <i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i> 
+        </nav>
+        <div class= "header-text">
+            <h1>UI/UX DESIGNER</h1>
+            
+            <h4>Hello! I’m <span>Abdulfeta</span> , <br> a passionate Computer Science<br> student.</h4>
+        
+        </div>
+    </div> 
+</div>
+
+
+    
+    <!---------------------- About-------------------->
+    <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+              <img src="image/abd.jpg">
+            </div>
+            <div class="about-col-2">
+             <h1 class="sub-title">About Me </h1>
+             <p  style="font-style: italic;">Hello! I’m Abdulfeta Endris, a passionate Computer Science student with a strong foundation in programming and software development. I thrive on solving complex problems and love collaborating on innovative projects. My experience includes [mention any relevant projects, internships, or skills, like web development, app development, or data analysis]. I'm eager to apply my skills in a dynamic team environment and contribute to impactful technology solutions. Let's connect!.</p>
+           
+             <div class="tab-titles"> 
+                  <P class="tab-links active-link " onclick=" opentab('skills')">Skills</P>
+                  <P class="tab-links "onclick=" opentab('experience')">Experience</P>
+                  <P class="tab-links  "onclick=" opentab('education')">Education</P>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                      <li><span>UI/UX</span><br>Designig Web/App Interfaces</li>
+                      <li><span>Web Development</span><br>Web App Development</li>
+                      <li><span>Video Editing</span><br>Designing video editer</li>
+                  </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                  <ul>
+                     <li><span>2016 - current</span><br>UI/UX Design Training At Microlink Collage</li>
+                     <li><span>2016 - current</span><br>Web App Development</li>
+                     <li><span>2016 - current</span><br>Designing video editer</li>
+                 </ul>  
+             </div>
+             <div class="tab-contents "id="education">
+                 <ul>
+                    <li><span>2017</span><br>UI/UX Design Training At Microlink Collage</li>
+                    <li><span>2016</span><br> Web development Training At Microlink Collage</li>
+                    <li><span>Video Editing</span><br>Short Courses of Designing video editer</li>
+                 </ul>
+             </div>
+        </div>
+    </div>
+ </div>
+</div>
+<!---------------------service---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p> the services of web design are essential for anyone looking to establish a strong online presence. Whether it's a business, a personal portfolio, or a community platform, the right web design services can significantly .</p>
+                <a href="#">Learn More</a>
+
+            </div> 
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX/UI design services are essential in creating products that feel natural, engaging, and easy to use. Good UX/UI design makes life easier for users and ultimately defines the success of any digital product.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>video editing services are invaluable for transforming raw footage into polished, engaging content. Whether it's for social media, YouTube, business presentations, or personal projects  </p>               
+                 <a href="#">Learn More</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------------portfolio---------------------->
+
+
+<div id="portfolio">  
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+              <div class="work-list">
+                <div class="work">
+                  <img class="off" src="image/work 1.jpg">
+                  <div class="layer">
+                    <h3 style="font-style: italic;font-weight: bold;">Web Design</h3>
+                    <p>"Presenting modern web designs that prioritize usability, responsive layouts, and engaging, visually cohesive aesthetics."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                   
+               </div>
+               <div class="work">
+                <img class ="off" src="image/work 2.jpg">
+                <div class="layer">
+                    <h3 style="font-style: italic;font-weight: bold;">app Design</h3>
+                    <p>"Portfolio highlighting intuitive app designs focused on user experience, functionality, and sleek visual aesthetics."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>  
+                </div>
+                 
+             </div>
+             <div class="work">
+                <img class ="off" src="image/work3.jpg">
+                <div class="layer">
+                    <h3 style="font-style: italic;font-weight: bold;">video editing</h3>
+                    <p>"Portfolio highlighting intuitive app designs focused on user experience, functionality, and sleek visual aesthetics."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>  
+                </div>
+                 
+             </div>
+            </div>
+            <a href="https://www.bing.com/search?pglt=41&q=images+Apps%2C+web%2C+vedio+editing&cvid=b9fefcfeba2841dbba44b9a0b6320e2f&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQkzOTg1NWowajGoAgiwAgE&FORM=ANSPA1&PC=U531" class="btn">See More</a>
+         </div>
+</div>
+
+<!------------contact------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>Email: <a href="mailto:abdusofi46@gmail.com">abdusofi46@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+251941291245">+251941291245</a></p>
+                    
+                    <div class="social-icons">
+                        
+                        <a href="https://www.facebook.com/profile.php?id=61554784391813"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?igsh=50xyqk50cxcl&utm_content=ot7kou6"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLCrKOzd2ZXFEg4VbHdDR7Q"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://t.me/Alferidcr7"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="image/cv backgrounds.PDF" download class="btn btn2" class="btn btn2" style="color: azure;">Download CV</a> 
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name"placeholder="Your Name"required>
+                        <input type="email"name="email"placeholder="Your email"required>
+                        <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                 <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>copyright @ 2017, <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>The Portfolio Web Project Authors. All Right Reserved.<i class=""></i></p> 
+        </div>
+    </div>
+ <script>
+    var sidemeu = document.getElementById("sidemenu");
+ function openmenu(){
+    sidemeu.style.right = "0";
+ }
+ function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxNIASjJsm1yvh2XmdbJFf3BgVR1dpD7PXlo00DCG1NSTEubhcwlmg-W-2DAfE_PMvm/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg  = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent sucessfully"
+             setTimeout(function(){
+                msg.innerHTML =""
+             },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ <script src="persenal.js"></script>  
+ </body>
+ </html>  
+
+
+ 
